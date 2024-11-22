@@ -1,0 +1,132 @@
+/* Importando a fonte do Google Fonts */
+
+/* Reseta o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+a {
+    font-size: 16px;              /* Define o tamanho da fonte */
+    color: #f39c12;               /* Cor do texto */
+    text-decoration: none;        /* Remove o sublinhado padrão */
+    padding: 5px 10px;            /* Adiciona um pouco de espaçamento interno */
+    border: 1px solid #f39c12;    /* Adiciona uma borda fina */
+    border-radius: 5px;           /* Bordas levemente arredondadas */
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container img {
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+}
+header {
+    background-color: #001F54;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: "DM Serif Text", serif; 
+    font-weight: 400;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #001F54;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.container2 img {
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;   
+    margin-left: 3%;
+
+    
+}
+#pontos-positivos ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#pontos-positivos li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Estilo adicional para links */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #001F54;
+}

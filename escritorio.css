@@ -1,0 +1,218 @@
+/* Importando a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #001F54;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #001F54;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: "DM Serif Text", serif; /* Definindo a fonte DM Serif Text */
+    font-weight: 400;
+    font-style: italic; /* Definindo o estilo itálico */
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.servico {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.servico img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.servico h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.servico a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.servico a:hover {
+    text-decoration: underline;
+}
+
+#sobre-escritorio {
+    background-color: #fafafa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#sobre-escritorio h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção de depoimentos */
+#depoimentos {
+    background-color: #fafafa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#depoimentos h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.depoimentos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.depoimento {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.depoimento img {
+    width: 150px;
+    height: 140px;
+    border-radius: 80%;
+    margin-bottom: 30px;
+}
+
+.depoimento p {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.depoimento h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contato a {
+    font-size: 10px;
+    color: #020202;
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+.contato2 {
+    text-align: center;
+    color: #f39c12;
+
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contato form label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    margin-left: 25%;
+}
+
+#contato form input, #contato form textarea {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-left: 25%;
+}
+
+#contato form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #001F54;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+#contato form button:hover {
+    background-color: #001F54;
+}
+
+footer {
+    background-color: #001F54;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
